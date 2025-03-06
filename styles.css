@@ -126,3 +126,31 @@ nav a,
 .text {
     text-align: center;
 }
+
+/* Quote section */
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    /* flex-flow: column; */
+    height: 400px;  
+}
+
+.center-content{
+    margin: auto;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 250;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20 0;
+    padding-right: 60px;
+}
