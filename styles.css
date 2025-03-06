@@ -5,7 +5,7 @@ body {
 }
 
 .section {
-    padding: 0 190px;
+    padding: 0 210px;
 }
 
 /* Adjusting header section */
@@ -58,7 +58,7 @@ nav a,
 .hero {
     display: flex;
     margin: auto 0;
-    gap: 15px;
+    gap: 25px;
 }
 
 .wrapper {
