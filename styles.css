@@ -5,13 +5,16 @@ body {
 }
 
 .section {
-    padding: 0 150px;
+    padding: 0 190px;
 }
 
 /* Adjusting header section */
 .header {
     background-color: #1f2937;
     color: #f9faf8;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo {
@@ -37,5 +40,50 @@ nav ul li {
 
 nav a {
     text-decoration: none;
+}
+
+nav a,
+.little-letters {
+    color: #e5e7eb;
+}
+
+/* Parts of the Hero section */
+
+.big-letters {
     color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero {
+    display: flex;
+    margin: auto 0;
+    gap: 15px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+.image-holder {
+    flex: 1;
+    background-color: #8491a3;
+    display: flex;
+}
+
+.image-holder p {
+    margin: auto;
+}
+
+.hero .button {
+    max-width: fit-content;
+    background-color: #3882f6;
+    padding: 10px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #f9faf8;
+    font-weight: 600;
 }
