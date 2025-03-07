@@ -189,3 +189,13 @@ nav a,
     font-size: 22px;
     font-weight: 800;
 }
+
+/* Footing */
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 130px;
+
+}
