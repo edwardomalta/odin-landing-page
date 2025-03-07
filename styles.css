@@ -78,10 +78,10 @@ nav a,
     margin: auto;
 }
 
-.hero .button {
+.button {
     max-width: fit-content;
     background-color: #3882f6;
-    padding: 10px 30px;
+    padding: 10px 40px;
     border-radius: 15px;
     text-decoration: none;
     color: #f9faf8;
@@ -123,7 +123,7 @@ nav a,
     max-width: 180px;
 }
 
-.text {
+.item .text {
     text-align: center;
 }
 
@@ -153,4 +153,39 @@ nav a,
     font-size: 20px;
     margin: 20 0;
     padding-right: 60px;
+}
+
+/* Call to action */
+
+.call {
+    display: flex;
+    height: 350px;
+    margin: auto;
+    padding: 0 130px;
+}
+
+.blue-globe {
+    background-color: #3882f6;
+    flex: 1;
+    height: 150px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 15px 80px;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+}
+
+.call-content {
+    margin-right: auto;
+}
+
+.button.callb {
+    border: #f9faf8 solid 2px;
+    height: fit-content;
+}
+
+.call-content .title {
+    font-size: 22px;
+    font-weight: 800;
 }
